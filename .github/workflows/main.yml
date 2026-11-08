@@ -173,8 +173,8 @@ jobs:
         run: |
           Write-Host "========== RDP ACCESS =========="
           Write-Host "IP:       $env:TAILSCALE_IP"
-          Write-Host "User:     RDP"
-          Write-Host "Password: $env:RDP_PASSWORD"
+          Write-Host "User:     Joelson"
+          Write-Host "Password: @Joelson1"
           Write-Host "3D: Mesa llvmpipe (ejecuta 'Activar-3D-en-app.bat' del escritorio para cada app)"
           Write-Host "================================"
           while ($true) { Start-Sleep -Seconds 60 }
